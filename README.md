@@ -1,15 +1,15 @@
 # Capstone Flask App Template
 
 ## Part 1: Students Will Be Able To
- - [] Describe the client-server model
- - [] Describe the terms "frontend" and "backend"
- - [] Understand the difference between a static and a dynamic website
- - [] Understand which part of a Flask app contains Python
- - [] Understand which part of a Flask app contains HTML and CSS
- - [] Create a new `conda` environment and install the requirements for a Flask app
- - [] Run a Flask app locally
- - [] View output from server print statements
- - [] Use the `jinja2` templating system to send data from the backend to the frontend of a Flask app
+ - [x] Describe the client-server model
+ - [x] Describe the terms "frontend" and "backend"
+ - [x] Understand the difference between a static and a dynamic website
+ - [x] Understand which part of a Flask app contains Python
+ - [x] Understand which part of a Flask app contains HTML and CSS
+ - [x] Create a new `conda` environment and install the requirements for a Flask app
+ - [x] Run a Flask app locally
+ - [x] View output from server print statements
+ - [x] Use the `jinja2` templating system to send data from the backend to the frontend of a Flask app
 
 ## Part 2: Students Will Be Able To
  - [] Understand the difference between a `GET` and a `POST` request
