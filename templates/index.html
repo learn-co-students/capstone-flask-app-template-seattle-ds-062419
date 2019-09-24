@@ -16,9 +16,25 @@
         <p>
           <form action="/get_results" method="post">
             Input a number: <input type="text" name="number">
+            <br>
+            User: <select name="user">
+              <option value="2206066431492096327">Nicole Andrews</option>
+              <option value="2200417693859840681">Christy Faw</option>
+              <option value="2373608382922752189">Vladan Stankovic</option>
+              <option value="1670504276557824171">Elizabeth Giordano</option>
+            </select>
+            <br>
+            LinkedIn URL: <input type="url" name="linkedin_url">
+            <br>
+            Restaurant: 
+            <select name="restaurant">
+              {% for restaurant in restaurants %}
+                <option value="{{ restaurant }}">{{ restaurant }}</option>
+              {% endfor %}
+            </select>
+            <br>
             <input type="submit" class="btn btn-primary btn-lg" value="A button">
           </form>
-          
         </p>
       </div>
     </div>

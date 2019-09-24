@@ -12,9 +12,9 @@
  - [x] Use the `jinja2` templating system to send data from the backend to the frontend of a Flask app
 
 ## Part 2: Students Will Be Able To
- - [] Understand the difference between a `GET` and a `POST` request
- - [] Use an HTML form to send data from the frontend to the backend
- - [] Understand how JavaScript fits into the frontend
+ - [x] Understand the difference between a `GET` and a `POST` request
+ - [x] Use an HTML form to send data from the frontend to the backend
+ - [x] Understand how JavaScript fits into the frontend
 
 ## Requirements
 
@@ -22,13 +22,13 @@ This repo uses Python 3.6.0. All python packages can be found in the `requiremen
 
 To create a new `conda` environment to use this repo, run:
 ```bash
-conda create --name flask-env --file > requirements.txt
+conda create --name flask-env --file requirements.txt
 conda activate flask-env
 ```
 
 You will likely need to install additional packages to support your deployment, e.g. `scikit-learn`.  With the `flask-env` activated, you can run `conda install <package-name>`.  Once you are ready to deploy, you can generate your own `requirements.txt` for reproducibility purposes with:
 ```bash
-conda list --export requirements.txt
+conda list --export > requirements.txt
 ```
 ## Running the Flask Application
 
