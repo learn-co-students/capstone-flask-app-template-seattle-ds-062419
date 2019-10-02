@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from time import strftime
 import time
+from waitress import serve
 
 app = Flask(__name__, static_url_path="/static")
 
@@ -25,3 +26,6 @@ def get_results():
 
 def should_make_transaction(user_id):
     return False
+
+if __name__ == "__main__":
+    serve(app, host='0.0.0.0', port=5000)
