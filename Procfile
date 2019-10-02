@@ -1,2 +1,2 @@
-web: PYTHONUNBUFFERED=true python3 app.py
+web: waitress-serve app:app
 
